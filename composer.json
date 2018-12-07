@@ -1,0 +1,12 @@
+{
+    "name": "JensVercruysse/repositoryGenerator",
+    "description": "simpel repo generator",
+    "require":{
+        "vlucas/phpdotenv": "^2.5"
+    },
+    "autoload":{
+        "psr-4": {
+            "JensVercruysse\\": "lib/"
+        }   
+    }
+}
